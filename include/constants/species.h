@@ -1732,7 +1732,138 @@
 #define SPECIES_PIKACHU_PARTNER                         PLACEHOLDER_START + 53
 #define SPECIES_EEVEE_PARTNER                           PLACEHOLDER_START + 54
 
-#define GIGANTAMAX_START                                SPECIES_EEVEE_PARTNER
+// AW POKEMON START HERE
+
+#define AW_START            SPECIES_EEVEE_PARTNER
+#define SPECIES_ALPACOIL    AW_START + 1
+#define SPECIES_ALPACHROME  AW_START + 2
+#define SPECIES_LLAMALLOY   AW_START + 3
+#define SPECIES_SMACKOP     AW_START + 4
+#define SPECIES_STORKICK    AW_START + 5
+#define SPECIES_PHORUSMASH  AW_START + 6
+#define SPECIES_PUPPIXY     AW_START + 7
+#define SPECIES_FAERDILLO   AW_START + 8
+#define SPECIES_ARMANOVA    AW_START + 9
+//MAMMAL 1                  AW_START + 10
+//MAMMAL 2                  AW_START + 11
+//BIRD 1                    AW_START + 12
+//BIRD 2                    AW_START + 13
+//BIRD 3                    AW_START + 14
+#define SPECIES_DEWSEL      AW_START + 15
+#define SPECIES_OTTERAIN    AW_START + 16
+#define SPECIES_SEALOCH     AW_START + 17
+//RFORM 3                   AW_START + 18
+#define SPECIES_BELOSEED    AW_START + 19
+#define SPECIES_BELOBITE    AW_START + 20
+#define SPECIES_BELOSCYTHE  AW_START + 21
+//BUG 1                     AW_START + 22
+//BUG 2                     AW_START + 23
+//BUG 3                     AW_START + 24
+//PIKA 1                    AW_START + 25
+//PIKA 2                    AW_START + 26
+//PIKA 3                    AW_START + 27
+#define SPECIES_CLAMOUR     AW_START + 28
+#define SPECIES_MUSSCARA    AW_START + 29
+#define SPECIES_VALVOGUE    AW_START + 30
+//CONV. 1                   AW_START + 31
+//CONV. 2                   AW_START + 32
+#define SPECIES_YUWANA      AW_START + 33
+#define SPECIES_GOWANA      AW_START + 34
+#define SPECIES_GOWARENTI   AW_START + 35
+#define SPECIES_CLAYBARA    AW_START + 36
+#define SPECIES_BRICCAPY    AW_START + 37
+//ROCK 1                    AW_START + 38
+//ROCK 2                    AW_START + 39
+#define SPECIES_HEXTATURE   AW_START + 40
+//FIRE 1                    AW_START + 41
+//FIRE 2                    AW_START + 42
+//FIRE 3                    AW_START + 43
+#define SPECIES_ESCASETE    AW_START + 44
+#define SPECIES_RECORGOT    AW_START + 45
+//WATER 1                   AW_START + 46
+//WATER 2                   AW_START + 47
+//WATER 3 (unrelated)       AW_START + 48
+#define SPECIES_SHARKELP    AW_START + 49
+#define SPECIES_BASKALGAE   AW_START + 50
+#define SPECIES_SHYFONO     AW_START + 51
+#define SPECIES_EMSIFONO    AW_START + 52
+#define SPECIES_SIPHORMIX   AW_START + 53
+#define SPECIES_SOLM        AW_START + 54
+#define SPECIES_CHASOLM     AW_START + 55
+#define SPECIES_GROTTOLM    AW_START + 56
+//FLYING 1                  AW_START + 57
+//FLYING 2                  AW_START + 58
+//FLYING 3                  AW_START + 59
+#define SPECIES_GEENKY      AW_START + 60
+#define SPECIES_UNFAIREE    AW_START + 61
+//STEEL 1                   AW_START + 62
+//STEEL 2                   AW_START + 63
+#define SPECIES_BEETEMOLT   AW_START + 64
+#define SPECIES_PHANTOMOLT  AW_START + 65
+#define SPECIES_SKIRMUSH    AW_START + 66
+#define SPECIES_CORDYSPAR   AW_START + 67
+#define SPECIES_ICIRKRILL   AW_START + 68
+#define SPECIES_KRILLOWATT  AW_START + 69
+//TARDIGRADE 1              AW_START + 70
+//TARDIGRADE 2              AW_START + 71
+//ICE 1                     AW_START + 72
+//ICE 2                     AW_START + 73
+//ICE 3                     AW_START + 74
+//ICE 4                     AW_START + 75
+//GHOST 1                   AW_START + 76
+//GHOST 2                   AW_START + 77
+//GHOST 3                   AW_START + 78
+//GHOST 4 (unrelated)       AW_START + 79
+//GHOST 5                   AW_START + 80
+//DARK 1                    AW_START + 81
+//DARK 2                    AW_START + 82
+//DARK 3                    AW_START + 83
+//CONV. 3 (unrelated)       AW_START + 84
+//CONV. 4                   AW_START + 85
+//FIRE                      AW_START + 86
+//SMEARGLE EVO              AW_START + 87
+//FAIRY 1                   AW_START + 88
+//FAIRY 2                   AW_START + 89
+//FAIRY 3                   AW_START + 90
+//TRANSHGHENR 1             AW_START + 91
+//TRSANSNHR 2               AW_START + 92
+//TRANSNHHR 3               AW_START + 93
+//FIGHT 1                   AW_START + 94
+//FIGHT 2                   AW_START + 95
+//NIXIE 1                   AW_START + 96
+//NIXIE 2                   AW_START + 97
+//ELEC 1                    AW_START + 98
+//ELEC 2 (unrelated)        AW_START + 99
+//HEALER???                 AW_START + 100
+//NOT GOLDUCK               AW_START + 101
+#define SPECIES_SMOULDRA    AW_START + 102
+#define SPECIES_FROSTYLO    AW_START + 103
+#define SPECIES_FRACTYLO    AW_START + 104
+//TULLYMONSTRUM 1           AW_START + 105
+//TULLYMONSTRUM 2           AW_START + 106
+//DRAGON 1                  AW_START + 107
+//DRAGON 2                  AW_START + 108
+//DRAGON 3                  AW_START + 109
+//PSEUDO 1                  AW_START + 110
+//PSEUDO 2                  AW_START + 111
+//PSEUDO 3                  AW_START + 112
+#define SPECIES_STICKLY     AW_START + 113
+#define SPECIES_CONSTRUCKLY AW_START + 114
+#define SPECIES_PHASMETAL   AW_START + 115
+//BOXLEGEND 1               AW_START + 116
+//BOXLEGEND 2               AW_START + 117
+#define SPECIES_ILUCIDELIA  AW_START + 118
+//TRIO 1                    AW_START + 119
+//TRIO 2                    AW_START + 120
+//TRIO 3                    AW_START + 121
+//DUO 1                     AW_START + 122
+//DUO 2                     AW_START + 123
+//MYTH 1                    AW_START + 124
+//MYTH 2                    AW_START + 125
+//MYTH 3                    AW_START + 126
+//TRIO MASTER               AW_START + 127
+
+#define GIGANTAMAX_START                                AW_START + 127
 
 // Gigantamax Forms
 #define SPECIES_VENUSAUR_GIGANTAMAX                     GIGANTAMAX_START + 1
