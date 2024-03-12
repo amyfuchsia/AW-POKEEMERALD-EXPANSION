@@ -10104,6 +10104,28 @@ PLACEHOLDER_ANIM_SINGLE_FRAME(Fezandipiti);
 PLACEHOLDER_ANIM_SINGLE_FRAME(Ogerpon);
 #endif //P_FAMILY_OGERPON
 
+// AW POKEMON START HERE
+static const union AnimCmd sAnim_Alpacoil_1[] =
+{
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(1, 15),
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(1, 15),
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Alpachrome_1[] =
+{
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(1, 15),
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(1, 15),
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_END,
+};
+
+
 static const union AnimCmd sAnim_Egg_1[] =
 {
     ANIMCMD_FRAME(0, 6),
@@ -12753,4 +12775,9 @@ SINGLE_ANIMATION(Fezandipiti);
 #if P_FAMILY_OGERPON
 SINGLE_ANIMATION(Ogerpon);
 #endif //P_FAMILY_OGERPON
+
+// AW POKEMON START HERE
+SINGLE_ANIMATION(Alpacoil);
+SINGLE_ANIMATION(Alpachrome);
+
 SINGLE_ANIMATION(Egg);
