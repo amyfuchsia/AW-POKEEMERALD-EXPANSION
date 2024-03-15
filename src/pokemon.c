@@ -4784,7 +4784,8 @@ u16 GetBattleBGM(void)
         }
     }
     else
-        return MUS_VS_WILD;
+        //BATTLE MUSIC
+        return AW_MUS_BATTLE_WILD;
 }
 
 void PlayBattleBGM(void)

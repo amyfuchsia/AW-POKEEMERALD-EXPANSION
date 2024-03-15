@@ -23147,3 +23147,7 @@ static const struct LevelUpMove sOgerponLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 #endif
+
+// AW POKEMON START HERE
+
+
