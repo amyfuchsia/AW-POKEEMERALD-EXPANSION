@@ -545,6 +545,7 @@
 #define PH_NURSE_SOLO               609
 
 #define AW_MUS_BATTLE_WILD          610
+#define AW_MUS_BATTLE_JADE_GRUNT    611
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 

@@ -1240,4 +1240,7 @@ $(MID_SUBDIR)/se_dex_search.s: %.s: %.mid
 	$(MID) $< $@ -E -G127 -v100 -P5
 
 $(MID_SUBDIR)/aw_mus_battle_wild.s: %.s: %.mid
-	$(MID) $< $@ -E -R0 -G229 -V090 -p1
+	$(MID) $< $@ -E -R0 -G229 -V090
+
+$(MID_SUBDIR)/aw_mus_battle_jade_grunt.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V110

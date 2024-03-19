@@ -1815,9 +1815,9 @@
 //GHOST 3                   AW_START + 78
 //GHOST 4 (unrelated)       AW_START + 79
 //GHOST 5                   AW_START + 80
-//DARK 1                    AW_START + 81
-//DARK 2                    AW_START + 82
-//DARK 3                    AW_START + 83
+#define SPECIES_SOMBURY     AW_START + 81
+#define SPECIES_LURIDIRT    AW_START + 82
+#define SPECIES_LURIDWELL   AW_START + 83
 //CONV. 3 (unrelated)       AW_START + 84
 //CONV. 4                   AW_START + 85
 //FIRE                      AW_START + 86
@@ -1834,36 +1834,43 @@
 //NIXIE 2                   AW_START + 97
 //ELEC 1                    AW_START + 98
 //ELEC 2 (unrelated)        AW_START + 99
-//HEALER???                 AW_START + 100
-//NOT GOLDUCK               AW_START + 101
-#define SPECIES_SMOULDRA    AW_START + 102
-#define SPECIES_FROSTYLO    AW_START + 103
-#define SPECIES_FRACTYLO    AW_START + 104
-//TULLYMONSTRUM 1           AW_START + 105
-//TULLYMONSTRUM 2           AW_START + 106
-//DRAGON 1                  AW_START + 107
-//DRAGON 2                  AW_START + 108
-//DRAGON 3                  AW_START + 109
-//PSEUDO 1                  AW_START + 110
-//PSEUDO 2                  AW_START + 111
-//PSEUDO 3                  AW_START + 112
-#define SPECIES_STICKLY     AW_START + 113
-#define SPECIES_CONSTRUCKLY AW_START + 114
-#define SPECIES_PHASMETAL   AW_START + 115
-//BOXLEGEND 1               AW_START + 116
-//BOXLEGEND 2               AW_START + 117
-#define SPECIES_ILUCIDELIA  AW_START + 118
-//TRIO 1                    AW_START + 119
-//TRIO 2                    AW_START + 120
-//TRIO 3                    AW_START + 121
-//DUO 1                     AW_START + 122
-//DUO 2                     AW_START + 123
-//MYTH 1                    AW_START + 124
-//MYTH 2                    AW_START + 125
-//MYTH 3                    AW_START + 126
-//TRIO MASTER               AW_START + 127
+//ELEC 1                    AW_START + 100
+//ELEC 2                    AW_START + 101
+//ELEC 3                    AW_START + 102
+//SOLAR WIND 1              AW_START + 103
+//SOLAR WIND 2              AW_START + 104
+//HEALER???                 AW_START + 105
+//NOT GOLDUCK               AW_START + 106
+#define SPECIES_SMOULDRA    AW_START + 107
+#define SPECIES_FROSTYLO    AW_START + 108
+#define SPECIES_FRACTYLO    AW_START + 109
+//TULLYMONSTRUM 1           AW_START + 110
+//TULLYMONSTRUM 2           AW_START + 111
+//DRAGON 1                  AW_START + 112
+//DRAGON 2                  AW_START + 113
+//DRAGON 3                  AW_START + 114
+//PSEUDO 1                  AW_START + 115
+//PSEUDO 2                  AW_START + 116
+//PSEUDO 3                  AW_START + 117
+#define SPECIES_STICKLY     AW_START + 118
+#define SPECIES_CONSTRUCKLY AW_START + 119
+#define SPECIES_PHASMETAL   AW_START + 120
+#define SPECIES_STRIGILENT  AW_START + 121
+#define SPECIES_SOMNILUS    AW_START + 122
+#define SPECIES_CHIRURGE    AW_START + 123
+//TRIO 1                    AW_START + 124
+//TRIO 2                    AW_START + 125
+//TRIO 3                    AW_START + 126
+//DUO 1                     AW_START + 127
+//DUO 2                     AW_START + 128
+//MYTH 1                    AW_START + 129
+//MYTH 2                    AW_START + 130
+//MYTH 3                    AW_START + 131
+//TRIO MASTER               AW_START + 132
+//SOLO LEGEND               AW_START + 133
+//SOLO LEGEND               AW_START + 134
 
-#define GIGANTAMAX_START                                AW_START + 127
+#define GIGANTAMAX_START                                AW_START + 134
 
 // Gigantamax Forms
 #define SPECIES_VENUSAUR_GIGANTAMAX                     GIGANTAMAX_START + 1

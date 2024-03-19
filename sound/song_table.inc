@@ -613,6 +613,7 @@ gSongTable::
 	song ph_nurse_solo, 2, 2
 	
 	song aw_mus_battle_wild, 0, 0
+	song aw_mus_battle_jade_grunt, 0, 0
 
 	.align 2
 dummy_song_header:

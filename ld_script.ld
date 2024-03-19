@@ -1247,6 +1247,7 @@ SECTIONS {
         sound/songs/midi/ph_nurse_solo.o(.rodata);
         
         sound/songs/midi/aw_mus_battle_wild.o(.rodata);
+        sound/songs/midi/aw_mus_battle_jade_grunt.o(.rodata);
     } > ROM =0
 
     lib_rodata :
