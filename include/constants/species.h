@@ -1649,6 +1649,8 @@
 #define SPECIES_DEWSEL      AW_START + 15
 #define SPECIES_PUIPOUR     AW_START + 16
 #define SPECIES_SEALOCH     AW_START + 17
+//RFORM 1
+//RFORM 2
 //RFORM 3                   AW_START + 18
 #define SPECIES_BELOSEED    AW_START + 19
 #define SPECIES_BELOBITE    AW_START + 20
@@ -1712,9 +1714,9 @@
 //GHOST 3                   AW_START + 78
 //GHOST 4 (unrelated)       AW_START + 79
 //GHOST 5                   AW_START + 80
-#define SPECIES_SOMBURY     AW_START + 81
-#define SPECIES_LURIDIRT    AW_START + 82
-#define SPECIES_LURIDWELL   AW_START + 83
+#define SPECIES_LURIDIRT    AW_START + 81
+#define SPECIES_LURIDWELL   AW_START + 82
+#define SPECIES_DESOLONG    AW_START + 83
 //CONV. 3 (unrelated)       AW_START + 84
 //CONV. 4                   AW_START + 85
 //FIRE                      AW_START + 86
@@ -1749,8 +1751,8 @@
 //PSEUDO 1                  AW_START + 115
 //PSEUDO 2                  AW_START + 116
 //PSEUDO 3                  AW_START + 117
-#define SPECIES_STICKLY     AW_START + 118
-#define SPECIES_CONSTRUCKLY AW_START + 119
+#define SPECIES_TINYMPH     AW_START + 118
+#define SPECIES_NYMFOIL     AW_START + 119
 #define SPECIES_PHASMETAL   AW_START + 120
 #define SPECIES_STRIGILENT  AW_START + 121
 #define SPECIES_SOMNILUS    AW_START + 122

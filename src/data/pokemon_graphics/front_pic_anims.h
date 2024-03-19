@@ -10156,6 +10156,27 @@ static const union AnimCmd sAnim_Alpachrome_1[] =
     ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_Llamalloy_1[] =
+{
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(1, 15),
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(1, 15),
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_END,
+};
+
+
+static const union AnimCmd sAnim_Smackop_1[] =
+{
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(1, 15),
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(1, 15),
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_Egg_1[] =
 {
     ANIMCMD_FRAME(0, 6),
@@ -12833,5 +12854,7 @@ SINGLE_ANIMATION(Pecharunt);
 // AW POKEMON START HERE
 SINGLE_ANIMATION(Alpacoil);
 SINGLE_ANIMATION(Alpachrome);
+SINGLE_ANIMATION(Llamalloy);
+SINGLE_ANIMATION(Smackop);
 
 SINGLE_ANIMATION(Egg);

@@ -2599,4 +2599,31 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .cantBeSwapped = TRUE,
         .cantBeTraced = TRUE,
     },
+
+    // AW ABILITIES START HERE
+    [ABILITY_EXTREMOPHILE] =
+    {
+        .name = _("Extremophile"),
+        .description = COMPOUND_STRING("Protects from natural types."),
+        .aiRating = 8,
+    },
+    
+    [ABILITY_TONE_DEAF] = 
+    {
+        .name = _("Tone-Deaf"),
+        .description = COMPOUND_STRING("Ups and resists sound."),
+        .aiRating = 2,
+        .breakable = TRUE,
+    },
+
+    [ABILITY_COEVAL] =
+    {
+        .name = _("Coeval"),
+        .description = COMPOUND_STRING("All moves happen immediately."),
+        .aiRating = 8,
+        .cantBeCopied = TRUE,
+        .cantBeSwapped = TRUE,
+        .cantBeTraced = TRUE,
+    },
+    
 };
