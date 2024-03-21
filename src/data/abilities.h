@@ -2619,7 +2619,27 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_COEVAL] =
     {
         .name = _("Coeval"),
-        .description = COMPOUND_STRING("All moves happen immediately."),
+        .description = COMPOUND_STRING("All moves happen immediately. WIP"),
+        .aiRating = 8,
+        .cantBeCopied = TRUE,
+        .cantBeSwapped = TRUE,
+        .cantBeTraced = TRUE,
+    },
+
+    [ABILITY_SOMNILUS] =
+    {
+        .name = _("unnamed"),
+        .description = COMPOUND_STRING("Reduces PP of enemy's contact moves."),
+        .aiRating = 8,
+        .cantBeCopied = TRUE,
+        .cantBeSwapped = TRUE,
+        .cantBeTraced = TRUE,
+    },
+
+    [ABILITY_CHIRURGE] =
+    {
+        .name = _("unnamed"),
+        .description = COMPOUND_STRING("unknown"),
         .aiRating = 8,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
